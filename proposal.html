@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minimalist Thumbnail Design Proposal</title>
+<style>
+    * { box-sizing: border-box; }
+
+    body {
+        margin: 0;
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+        background: #f3f3f1;
+        color: #222;
+        line-height: 1.65;
+    }
+
+    .page {
+        width: min(900px, calc(100% - 32px));
+        margin: 50px auto;
+        background: #fff;
+        padding: 70px 78px;
+        box-shadow: 0 12px 40px rgba(0,0,0,.07);
+        border: 1px solid #e8e8e5;
+    }
+
+    .accent {
+        width: 48px;
+        height: 4px;
+        background: #222;
+        margin-bottom: 30px;
+    }
+
+    .eyebrow {
+        font-size: 12px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: #777;
+        margin-bottom: 12px;
+        font-weight: 600;
+    }
+
+    h1 {
+        font-size: clamp(32px, 5vw, 52px);
+        line-height: 1.08;
+        letter-spacing: -1.8px;
+        margin: 0 0 35px;
+        font-weight: 650;
+    }
+
+    .hello {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    p {
+        font-size: 16px;
+        color: #444;
+        margin: 0 0 22px;
+    }
+
+    strong {
+        color: #222;
+        font-weight: 650;
+    }
+
+    .intro {
+        font-size: 17px;
+        color: #333;
+    }
+
+    .section-title {
+        margin-top: 42px;
+        margin-bottom: 18px;
+        font-size: 13px;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        color: #777;
+        font-weight: 700;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        position: relative;
+        padding: 13px 0 13px 29px;
+        border-bottom: 1px solid #ededeb;
+        color: #444;
+        font-size: 15.5px;
+    }
+
+    li::before {
+        content: "—";
+        position: absolute;
+        left: 0;
+        top: 13px;
+        color: #999;
+    }
+
+    .highlight {
+        margin: 36px 0;
+        padding: 24px 27px;
+        background: #f6f6f4;
+        border-left: 3px solid #222;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .closing {
+        margin-top: 40px;
+    }
+
+    .signature {
+        margin-top: 34px;
+        font-size: 18px;
+        font-weight: 650;
+        color: #222;
+    }
+
+    @media (max-width: 650px) {
+        .page {
+            width: calc(100% - 20px);
+            margin: 10px auto;
+            padding: 42px 28px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p, .intro {
+            font-size: 15.5px;
+        }
+    }
+
+    @media print {
+        body { background: white; }
+        .page {
+            width: 100%;
+            margin: 0;
+            box-shadow: none;
+            border: none;
+        }
+    }
+</style>
+</head>
+
+<body>
+<main class="page">
+    <div class="accent"></div>
+    <div class="eyebrow">Design Proposal</div>
+    <h1>Minimalist<br>Thumbnail Design</h1>
+
+    <p class="hello">Hello,</p>
+
+    <p class="intro">
+        I’d love to help you create clean, minimalist thumbnails that are consistent
+        with your brand and immediately recognizable in a crowded feed.
+    </p>
+
+    <p>
+        I have experience creating graphic designs using
+        <strong>Adobe Photoshop, Illustrator, and Canva</strong>, and I understand
+        that minimalist design is not simply about removing elements—it’s about
+        choosing the right visual, spacing, and contrast so the thumbnail
+        communicates the topic without becoming cluttered.
+    </p>
+
+    <div class="section-title">For each video, I can</div>
+
+    <ul>
+        <li>Review the title and summary to identify the strongest visual concept.</li>
+        <li>Select or create a simple icon/graphic that represents the topic.</li>
+        <li>Build a balanced 16:9 composition using a neutral, consistent color palette.</li>
+        <li>Make sure the main graphic remains clear at smaller sizes, including your 200 × 112 px requirement.</li>
+        <li>Provide the final <strong>1280 × 720 PNG under 2 MB</strong>.</li>
+        <li>Provide the <strong>editable PSD, AI, or Figma source with organized layers</strong>.</li>
+        <li>Include a <strong>25% thumbnail preview</strong> for quick approval.</li>
+        <li>Handle up to two revision rounds while keeping the design direction consistent.</li>
+    </ul>
+
+    <div class="highlight">
+        I can also maintain your brand's exact <strong>hex color palette</strong>
+        across thumbnails so the videos develop a recognizable visual identity over time.
+    </div>
+
+    <p>
+        I’m comfortable working with a <strong>24-hour turnaround</strong> and can
+        start immediately with your next video. I’d be happy to create the first
+        thumbnail based on your upcoming title and summary and establish the visual
+        style from there.
+    </p>
+
+    <div class="closing">
+        <p>Best regards,</p>
+        <div class="signature">Fares</div>
+    </div>
+</main>
+</body>
+</html>
